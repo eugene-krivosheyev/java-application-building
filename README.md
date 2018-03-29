@@ -30,28 +30,35 @@ This training is prerequisite for any other Java-aware training.
 - Simple App with packages and JAR demo
 - Typical errors: compiler syntax errors, CNFE
 
-## 4.	Maven Overview (1)
+## 4. Git Overview (1)
+- Commits
+- Branches
+- Repos
+- Local workflow
+- Remote workflow
+
+## 5.	Maven Overview (1)
 - Build cycle
 - Dependencies
 - Uber-jar pattern
 
-## 5.	IDEA Overview (1)
+## 6.	IDEA Overview (1)
 - Building
 - Debugging
 
-## 6.	Java Syntax Basics for Procedure Style (3)
+## 7.	Java Syntax Basics for Procedure Style (3)
 - Naming conventions
 - Code style conventions
 - Primitive types
 - Operators
 - Flow control structures
 
-## 7.	Primitive types VS Reference types (2)
+## 8.	Primitive types VS Reference types (2)
 - Heap and Stack
 - Arrays
 - Strings
 
-## 8.	Java Syntax Basics for OOP (3)
+## 9.	Java Syntax Basics for OOP (3)
 - Enums
 - Visibility
 - Constructor
@@ -61,42 +68,42 @@ This training is prerequisite for any other Java-aware training.
 - Best practices for class design
 - Design quality criteria
 
-## 9.	Exceptions (3)
+## 10.	Exceptions (3)
 - Exceptions in Java
 - Exception handling strategies
 - Try-with-resources
 - Exception types in Java
 - Best practices for exception type system design
 
-## 10.	System Library (2)
+## 11.	System Library (2)
 - j.l.System
 - j.l.Object
 - Collections API Overview
 
-## 11.	Threading Overview (3)
+## 12.	Threading Overview (3)
 - Threads in Java
 - Thread API
 - Concurrency issues overview
 - Best practices for multithreaded design
 
-## 12.	IO Overview (3)
+## 13.	IO Overview (3)
 - IO Architectures: blocking vs async
 - IO Architectures: batch data processing vs streaming
 - IO library overview
 - j.i.File
 - j.i.xxxStream and Readers/Writers
 
-## 13.	Networking Overview (2)
+## 14.	Networking Overview (2)
 - Network protocols: p2p vs multicast
 - Socket
 - ServerSocket
 
-## 14.	JDBC Overview (1)
+## 15.	JDBC Overview (1)
 - JDBC Architecture
 - Drivers
 - Main flow of DB App
 
-## 15.	System Design and Architecture Overview (1)
+## 16.	System Design and Architecture Overview (1)
 - Typical architecture patterns
 - Quality criteria
 - Typical issues caused by layering, decomposition, async interactions

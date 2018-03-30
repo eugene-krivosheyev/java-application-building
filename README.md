@@ -85,6 +85,7 @@ This training is prerequisite for any other Java-aware training.
 - IO library overview
 - j.i.File
 - j.i.xxxStream and Readers/Writers
+- Resources
 
 ## 13.	Networking Overview (2)
 - Network protocols: p2p vs multicast

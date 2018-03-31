@@ -11,6 +11,12 @@ This training is prerequisite for any other Java-aware training.
 5.	Basic tasks for troubleshooting Java Apps at test and production
 6.	Making bug report understandable by developers
 
+# Prerequisites
+- Git
+- JDK
+- Maven
+- IntelliJ Idea
+
 # Agenda
 ## 1.	Intro to Java Platform (2)
 - Java Platform goals and constrains

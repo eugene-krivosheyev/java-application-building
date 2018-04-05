@@ -1,6 +1,3 @@
-______TEST
-
-
 
 # «Intro to Java Platform and language».
 30 hrs.
@@ -118,3 +115,7 @@ This training is prerequisite for any other Java-aware training.
 - Typical architecture patterns
 - Quality criteria
 - Typical issues caused by layering, decomposition, async interactions
+
+
+______________________________
+## 17 Let's add a topic with CI management

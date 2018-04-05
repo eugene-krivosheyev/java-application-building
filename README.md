@@ -5,6 +5,7 @@ Weeeee
 Training for QAs who deals with working Java Apps to help them better and faster solve typical Java understanding mismatches and build-time issues.
 This training is prerequisite for any other Java-aware training.
 
+
 # Training Objectives:
 1.	Understanding platform architecture and its constraints,
 2.	Basic tasks for building and running Java Apps

@@ -1,6 +1,6 @@
 package com.db.edu.logger.api;
 
-import com.db.edu.logger.api.businesslogic.service.LogService;
+import com.db.edu.logger.businesslogic.service.LogService;
 
 /**
  * Controller's responsibilities:

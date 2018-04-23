@@ -1,4 +1,4 @@
-package com.db.edu.logger.api.businesslogic.service;
+package com.db.edu.logger.businesslogic.service;
 
 import com.db.edu.logger.dal.ConsoleLoggerSaver;
 

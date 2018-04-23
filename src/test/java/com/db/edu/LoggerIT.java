@@ -6,5 +6,7 @@ public class LoggerIT {
     public static void main(String[] args) {
         LoggerController logger = new LoggerController();
         logger.log("test message");
+
+//        assertThatMessageInConsoleEqualsTo(">> test message");
     }
 }

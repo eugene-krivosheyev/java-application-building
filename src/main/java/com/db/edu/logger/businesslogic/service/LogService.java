@@ -9,8 +9,12 @@ public class LogService {
 
     public void log(String message) {
         if(filter.filter(message)) {
-            String formattedMessage = formatter.format(message);
-            saver.save(formattedMessage);
+            handle(message);
         }
+    }
+
+    private void handle(String message) {
+        String formattedMessage = formatter.format(message);
+        saver.save(formattedMessage);
     }
 }

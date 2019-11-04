@@ -1,5 +1,4 @@
 Java Application Building
-
 ==========
 
 _Java Application as a Black Box: codebase management, building, troubleshooting and running._ 30hrs.

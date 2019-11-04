@@ -1,21 +1,15 @@
 Java Application Building
 ==========
 
-_Java Application as a Black Box: codebase management, building, troubleshooting and running._ 30hrs.
+_1. Java Application as a Black Box: codebase management, building, troubleshooting and running._ 30hrs.
 
 # Training Objectives
 - [ ] Understanding Java platform architecture and its typical defects
-- [ ] Understanding core source versioning patterns to localize parallel development errors
 - [ ] Hands-on skill of managing Java codebase with version control tool
-- [ ] Understanding Java application structure for error localization and reporting
+- [ ] Understanding core Java application structure for fast localization focus
+- [ ] Hands-on skill of building and autotesting complex Java Application
 - [ ] Understanding core Java syntax to localize and report compile-time errors
-- [ ] Understanding core build tool management to manage builds
-- [ ] Hands-on skill of localization dependency errors
-- [ ] Understanding core autotesting architecture to localize and report build-time errors
-- [ ] Hands-on skill of building complex Java Application
-- [ ] Understanding core Java run-time errors architecture for its localization and reporting
-- [ ] Hands-on skill of running complex Java Application
-- [ ] Hands-on skill of debugging Java application to localize complex errors
+- [ ] Hands-on skill of running and debugging complex Java Application
 - [ ] Understanding core Application architecture for fast localization focus
 
 # Prerequisites

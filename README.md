@@ -21,10 +21,14 @@ _1. Java Application as a Black Box: codebase management, building, troubleshoot
 - [ ] [JDK8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 - [ ] [IDEA (trial Ultimate)](https://www.jetbrains.com/idea/download/)
 - [ ] [Maven](https://maven.apache.org/download.cgi)
+- [ ] [Tomcat](https://tomcat.apache.org/download-90.cgi)
+- [ ] [Chrome standalone offline installer](https://cloud.google.com/chrome-enterprise/browser/download/)
+- [ ] [Docker for Windows](https://docs.docker.com/docker-for-windows/install/) or [Docker for Mac](https://docs.docker.com/docker-for-mac/install/)
 ## Network Access
 - [ ] github.org :443 :80
 - [ ] repo1.maven.org :443 :80
 - [ ] jcenter.bintray.com :443 :80
+- [ ] hub.docker.com :443 :80
 
 # Agenda
 ## Training introducing and focusing (1 hrs)
@@ -73,7 +77,7 @@ javadoc
 ### Hands-on
 - [ ] Making and running executable JAR from packaged sources and JARed comiled classes
 
-## Git DVCS overview (2)
+## Git DVCS overview (1)
 ### Local versioning workflow
 - [ ] Local repo
 - [ ] Commit
@@ -98,7 +102,7 @@ git clone --branch master --depth 1 https://github.com/ACCOUNT/java-application-
 - [ ] Open project with IDE
 - [ ] Make identyfing change and push
 
-## Intro to configuration management patterns (2)
+## Intro to configuration management patterns (1)
 ### Repo patterns
 - [ ] Distributed
 - [ ] Centralized
@@ -114,7 +118,7 @@ git clone --branch master --depth 1 https://github.com/ACCOUNT/java-application-
 - [ ] Make pull-request for code review and merge
 - [ ] Make reverse pull-request to get trainers changes
 
-## Maven Overview (2)
+## Maven Overview (1)
 ### Maven build lifecycle
 - [ ] Build lifecycles
 - [ ] Lifecycles phases
@@ -126,21 +130,23 @@ git clone --branch master --depth 1 https://github.com/ACCOUNT/java-application-
 - [ ] Artifact identifying
 - [ ] Artifact versioning: stable and snapshots
 - [ ] Dependency management with pom.xml
+- [ ] Typical issues: dependency hell
 ### Demo
 - [ ] Unit vs Integration tests pattern
 - [ ] Partial application build with IDE
 - [ ] Uber-jar pattern
 - [ ] Full application build with IDE
-- [ ] Results analysing
+- [ ] Build results analysing
 ### Hands-on
 - [ ] Full application build with IDE
 - [ ] Errors analysing
 - [ ] Compile errors fixing
 - [ ] Build without tests ran
 
-## IDE tooling overview (2)
+## IDE tooling overview (1)
 ### Demo
 - [ ] Project settings and structure: modules, sourcepath + classpath
+- [ ] Main and Test sources
 - [ ] Workspace
 - [ ] Views and hotkey switching
 - [ ] Editing sources and foreground compilation
@@ -155,68 +161,247 @@ git clone --branch master --depth 1 https://github.com/ACCOUNT/java-application-
 - [ ] Debug
 - [ ] Run tests
 - [ ] Full Maven build
+- [ ] Build results analysing
 - [ ] Commit and push
 
+## Memory structure and errors (2)
+### Memory structure
+- [ ] Methods and Call Stack
+- [ ] Objects and Heap Object Space
+- [ ] Classes and Perm/Meta Space
+- [ ] References in all scopes and GC
+### Errors
+- [ ] Class locading errors: compilation and run-time
+- [ ] Static context access
+- [ ] NPE
+- [ ] OOME: object heap space leak
+- [ ] OOME: perm/meta space leak
+- [ ] GC overhelming and stop-the-world
+### Demo
+- [ ] Application profiling with VisualGC plugin and Heap profiling
+- [ ] Heap dump
+### Hand-on
+- [ ] Application profiling with VisualGC plugin and Heap profiling
 
-## 7.	Java Syntax Basics for Procedure Style (3)
-- Naming conventions
-- Code style conventions
-- Primitive types
-- Operators
-- Flow control structures
+## Error handling architecture (2)
+### Exception definition
+- [ ] Type
+- [ ] Object
+- [ ] Handling
+- [ ] Stack trace
+### Exception types
+- [ ] Built-in
+- [ ] Errors vs Exceptions
+- [ ] Checked vs Unchecked
+### Handling architecture
+- [ ] Where to handle: system architecture layering aspect
+- [ ] How to handle: patterns
+### Try-with-resources
+- [ ] TRW
+- [ ] Stateful vs Stateless components
+### Demo
+- [ ] Business exception design and handling
+- [ ] Exception suppression demo
+### Hands-on
+- [ ] Business exception design and handling
 
-## 8.	Primitive types VS Reference types (2)
-- Heap and Stack
-- Arrays
-- Strings
+## Multithreading architecture (2)
+### Threads overview
+- [ ] Thread concept
+- [ ] Scheduler 
+- [ ] Scheduler overhead issue
+- [ ] Data race issue
+- [ ] Thread-safety design and documetation
+- [ ] Threads syncronization: why
+- [ ] Deadlock issue
+### Demo
+- [ ] Data race issue demo
+- [ ] Application profiling with threads states and stack dump
+### Hands-on
+- [ ] Application profiling with threads states and stack dump
 
-## 9.	Java Syntax Basics for OOP (3)
-- Enums
-- Visibility
-- Constructor
-- Inheritance
-- Classes and Interfaces
-- Polymorphism
-- Best practices for class design
-- Design quality criteria
+## Web application architecture (2)
+### HTTP protocol
+- [ ] HTTP as a transport layer
+- [ ] Methods
+- [ ] Payload
+- [ ] Errors
+### Web container
+- [ ] JavaEE/JakartaEE standart
+- [ ] Tomcat overview
+- [ ] Web application layout
+- [ ] Webapp building
+- [ ] Webapp deploying
+- [ ] Webapp running
+- [ ] Webapp undeploying
+### Web application architectures
+- [ ] Components: servlets, jsp, filters, listeners
+- [ ] UI webapp architecture
+- [ ] REST- and Web-services architecture
+### Demo
+- [ ] Simple UI webapp building and deploying to Tomcat
+- [ ] HTTP layer sniffing with Chrome
+### Hands-on
+- [ ] Simple UI webapp building and deploying to Tomcat
+- [ ] HTTP layer sniffing with Chrome
 
-## 10.	Exceptions (3)
-- Exceptions in Java
-- Exception handling strategies
-- Try-with-resources
-- Exception types in Java
-- Best practices for exception type system design
+## Frameworked Webapp architecture (2)
+### Framework concept
+- [ ] Framework definintion
+- [ ] Typical application architecture: layers
+- [ ] Typical responsibilities
+- [ ] Application configuration: why and what
+- [ ] Why not JavaEE
+### Spring
+- [ ] Responsibilities
+- [ ] Application configuration ways
+- [ ] Context definition
+- [ ] Profiles definition
+- [ ] Typical issues with context components
+### Spring MVC
+- [ ] Responsibilities for REST and SOAP API
+- [ ] Typical issues with Controllers
+### Spring Boot
+- [ ] Responsibilities
+- [ ] Typical issues with Boot modules
+### Demo
+- [ ] REST API overview
+- [ ] Structure of Boot application for API
+- [ ] Building and running
+### Hands-on
+- [ ] Building and running Boot REST API application
+- [ ] Manual tesing
 
-## 11.	System Library (2)
-- j.l.System
-- j.l.Object
-- Collections API Overview
+## Data storage architecture (2)
+### Data storage types
+- [ ] Plain files
+- [ ] RDBMS
+- [ ] NoSQL/NewSQL
+- [ ] Pros and Cons
+### RDBMS access types
+- [ ] JDBC API: db schema constrains, type mapping, transactions
+- [ ] JPA API: entities and constrains, caching, transactions
+- [ ] Spring Boot Data generated repositores
+### Data Validation API
+- [ ] Configuring constraints
+### Typical issues
+- [ ] Db schema constrains
+- [ ] Entities constraints
+- [ ] Validation API constraints
+- [ ] JDBC transactions and isolation, db deadlocks
+- [ ] JPA transactions and optimistic exceptions
+### DB versioning
+- [ ] Why
+### Demo
+- [ ] DB versioning with Liquibase and access with Boot Data repositories
+### Hands-on
+- [ ] Add entity field with Validation API constraints
+- [ ] Add Liquibase change
+- [ ] Build and run application
+- [ ] Manual testing
 
-## 12.	Threading Overview (3)
-- Threads in Java
-- Thread API
-- Concurrency issues overview
-- Best practices for multithreaded design
+## Autotests architecture (2)
+### Autotests definintion
+- [ ] Testing scopes mapped to application architecture
+- [ ] Test structure
+- [ ] Test doublers
+- [ ] Reporting: test run and coverage
+- [ ] Test error types
+### Demo
+- [ ] Attendees choose their typical scope for demo
+- [ ] Unit test: plain service + manual doubling
+- [ ] Unit test: service + spring context doubling
+- [ ] Integration test: controller + serivce
+- [ ] Integration test: controller + service + repository
+- [ ] Integration test: HTTP layer + controller + service + repository
+- [ ] Integration test: HTTP layer + controller + service + remote REST service + repository
+### UI testing
+- [ ] HTML overview
+- [ ] Selenium API overview
+- [ ] Selenide library
+- [ ] Driver manager library
+### Demo
+- [ ] UI Selenide test with Chrome headless mode off
+### Hands-on
+- [ ] Choose testing scope
+- [ ] Implement autotest
+- [ ] Run from IDE
+- [ ] Run full Maven build
+- [ ] Analyse reports
 
-## 13.	IO Overview (3)
-- IO Architectures: blocking vs async
-- IO Architectures: batch data processing vs streaming
-- IO library overview
-- j.i.File
-- j.i.xxxStream and Readers/Writers
-- Resources
+## Logging and Monitoring architecture (2)
+### Local logging
+- [ ] Logging libraries hell overview
+- [ ] SLF4J API
+- [ ] Logback configuration
+- [ ] Profiles
+- [ ] Production issues
+### Remote logging
+- [ ] Centralized remote logging architecture
+- [ ] ELK stack for implementation
+### Demo
+- [ ] Remote ELK overview
+- [ ] Application logs to Logstash
+- [ ] Log stream with Kibana
+- [ ] Log searching and filtering with Kibana
+- [ ] Business events filtering
+- [ ] Kibana dashboards for business events
+### Monitoring with ELK
+- [ ] What to monitor?
+- [ ] Gathering system metrics with Beats
+- [ ] Kibana dashboards
+### Monitoring with JMX
+- [ ] What to monitor?
+- [ ] JMX MBeans
+- [ ] MBeans implementations: JVM, container, framework, application
+- [ ] Remote monitoring with JVisualVM
+### Hands-on
+- [ ] Customize logging level
+- [ ] Analyse logs
+- [ ] Local monitoring with JVVM
 
-## 14.	Networking Overview (2)
-- Network protocols: p2p vs multicast
-- Socket
-- ServerSocket
+## DevOps Pipeline architecture* (2)
+### DevOps culture
+- [ ] Production process overview
+- [ ] Bottlenecks
+- [ ] Communications as a key
+- [ ] DevOps culture
+### DevOps pipeline tooling
+- [ ] Source management
+- [ ] Artifact management
+- [ ] CI
+- [ ] Autotesting
+- [ ] Stage provisioing and IaaC concept
+- [ ] Stage virtualization and containerization
+- [ ] CD
+- [ ] DB versioning
+- [ ] Feature toggling
+- [ ] Deployment patterns
+- [ ] Production logging and monitoring
+### QA value
+- [ ] Where is QA adds value?
+### Demo
+- [ ] CD pipeline demo
+### Hands-on
+- [ ] Push feature change full-auto to prod environment
 
-## 15.	JDBC Overview (1)
-- JDBC Architecture
-- Drivers
-- Main flow of DB App
+## Test containerization architecture* (1)
+### Containerization concept
+- [ ] Containerization goals
+- [ ] Containerization vs virtualization
+- [ ] QA use-cases and value
+### Docker implementation overview
+- [ ] Docker images
+- [ ] Docker container
+- [ ] Docker Hub
+- [ ] Image provisioning
+### Demo
+- [ ] Application dockeriaztion
+- [ ] Container run
+### Environment management
+- [ ] Docker Compose
+- [ ] Docker Swarm
+- [ ] k8s
 
-## 16.	System Design and Architecture Overview (1)
-- Typical architecture patterns
-- Quality criteria
-- Typical issues caused by layering, decomposition, async interactions
+## Buffer (2)
+- [ ] Daily retrospectives

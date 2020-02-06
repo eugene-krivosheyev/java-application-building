@@ -405,3 +405,9 @@ git clone --branch master --depth 1 https://github.com/ACCOUNT/java-application-
 
 ## Buffer (2)
 - [ ] Daily retrospectives
+
+---
+
+# Reading List
+- [Minimal Valuable Reading List](https://docs.google.com/document/d/14r58sL0fKwhJBkfS-yYHhVEVH6sTdQ77QOgCu8Y3hsM/edit#)
+

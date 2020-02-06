@@ -97,7 +97,7 @@ javadoc
 - [ ] Add pair as collborator
 - [ ] Clone fork locally
 ```bash
-git clone --branch master --depth 1 https://github.com/ACCOUNT/java-application-building
+git clone --branch master --depth 1 https://github.com/eugene-krivosheyev/agile-practices-application
 ```
 - [ ] Open project with IDE
 - [ ] Make identyfing change and push

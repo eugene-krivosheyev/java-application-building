@@ -4,9 +4,9 @@ Java Application Building
 _1. Java Application as a Black Box: codebase management, building, troubleshooting and running._ 30hrs.
 
 # Training Objectives
-- [ ] Understanding Java platform architecture and its typical defects
-- [ ] Hands-on skill of managing Java codebase with version control tool
-- [ ] Understanding core Java application structure for fast localization focus
+- [x] Understanding Java platform architecture and its typical defects
+- [x] Hands-on skill of managing Java codebase with version control tool
+- [x] Understanding core Java application structure for fast localization focus
 - [ ] Hands-on skill of building and autotesting complex Java Application
 - [ ] Understanding core Java syntax to localize and report compile-time errors
 - [ ] Hands-on skill of running and debugging complex Java Application
@@ -32,27 +32,27 @@ _1. Java Application as a Black Box: codebase management, building, troubleshoot
 
 # Agenda
 ## Training introducing and focusing (1 hrs)
-- [ ] Schedule
-- [ ] Trainer
-- [ ] Training overview
-- [ ] Rules
+- [x] Schedule
+- [x] Trainer
+- [x] Training overview
+- [x] Rules
 ### Hands-on: teams and their demand
-- [ ] Pairs forming and introduction
-- [ ] Topics focus demand from attendees
-- [ ] Additional topics demand form attendees
+- [x] Pairs forming and introduction
+- [x] Topics focus demand from attendees
+- [x] Additional topics demand form attendees
 
 ## Intro to Java Platform (2)
 ### Java platform
-- [ ] Java Platform definition
-- [ ] Java Platform goals and constrains
-- [ ] Brief history and versioning
-- [ ] Basic terms: JVM, JRE, JDK
-- [ ] Sourcepath and Classpath
+- [x] Java Platform definition
+- [x] Java Platform goals and constrains
+- [x] Brief history and versioning
+- [x] Basic terms: JVM, JRE, JDK
+- [x] Sourcepath and Classpath
 ### Demo
-- [ ] Two-classes Java application manual build and run cycle
-- [ ] Run-time parametrization: JVM parameters, application properties, program arguments
+- [x] Two-classes Java application manual build and run cycle
+- [x] Run-time parametrization: JVM parameters, application properties, program arguments
 ### Hands-on
-- [ ] Two-classes Java application manual build and run cycle with run-time parametrization
+- [x] Two-classes Java application manual build and run cycle with run-time parametrization
 ```bash
 javac
 java
@@ -61,87 +61,87 @@ javadoc
 
 ## Java Application structure (2)
 ### Application structure
-- [ ] Class and its responsibility
-- [ ] Method and its intention
-- [ ] Package and its cohesion
-- [ ] JAR and executable JARs
+- [x] Class and its responsibility
+- [x] Method and its intention
+- [x] Package and its cohesion
+- [x] JAR and executable JARs
 ### Typical development errors
-- [ ] Compiler warnings
-- [ ] Compiler errors (CNFE, typing)
-- [ ] Run-time errors (CNDFE, Exceptions and Errors)
+- [x] Compiler warnings
+- [x] Compiler errors (CNFE, typing)
+- [x] Run-time errors (CNDFE, Exceptions and Errors)
 ### Demo
-- [ ] Compiling milti-class packaged application from sources
-- [ ] Compiling milti-class packaged application from sources and raw comiled classes
-- [ ] Compiling milti-class packaged application from sources and JARed comiled classes
-- [ ] Making and running executable JAR
+- [x] Compiling milti-class packaged application from sources
+- [x] Compiling milti-class packaged application from sources and raw comiled classes
+- [x] Compiling milti-class packaged application from sources and JARed comiled classes
+- [x] Making and running executable JAR
 ### Hands-on
-- [ ] Making and running executable JAR from packaged sources and JARed comiled classes
+- [x] Making and running executable JAR from packaged sources and JARed comiled classes
 
 ## Git DVCS overview (1)
 ### Local versioning workflow
-- [ ] Local repo
-- [ ] Commit
-- [ ] Log
-- [ ] Tag
-- [ ] Branch
+- [x] Local repo
+- [x] Commit
+- [x] Log
+- [x] Tag
+- [x] Branch
 ### Remote versioing workflow
-- [ ] Remote repo
-- [ ] Clone
-- [ ] Push
-- [ ] Pull
+- [x] Remote repo
+- [x] Clone
+- [x] Push
+- [x] Pull
 ### Demo
-- [ ] Make group custom branch
-- [ ] Local and remote workflow with IDE tool
+- [x] Make group custom branch
+- [x] Local and remote workflow with IDE tool
 ### Hands-on
-- [ ] Fork this repo with your account
-- [ ] Add pair as collborator
-- [ ] Clone fork locally
+- [x] Fork this repo with your account
+- [x] Add pair as collborator
+- [x] Clone fork locally
 ```bash
 git clone --branch master --depth 1 https://github.com/eugene-krivosheyev/agile-practices-application
 ```
-- [ ] Open project with IDE
-- [ ] Make identyfing change and push
+- [x] Open project with IDE
+- [x] Make identyfing change and push
 
 ## Intro to configuration management patterns (1)
 ### Repo patterns
-- [ ] Distributed
-- [ ] Centralized
+- [x] Distributed
+- [x] Centralized
 ### Branching patterns
-- [ ] Team branch
-- [ ] Relese branch
-- [ ] Git Flow: feature branches + dev branch
-- [ ] Trunk-based development + Feature toggling
+- [x] Team branch
+- [x] Relese branch
+- [x] Git Flow: feature branches + dev branch
+- [x] Trunk-based development + Feature toggling
 ### Demo
-- [ ] Making pull-request: code review + merge
+- [x] Making pull-request: code review + merge
 ### Hands-on
-- [ ] Make change
-- [ ] Make pull-request for code review and merge
-- [ ] Make reverse pull-request to get trainers changes
+- [x] Make change
+- [x] Make pull-request for code review and merge
+- [x] Make reverse pull-request to get trainers changes
 
 ## Maven Overview (1)
 ### Maven build lifecycle
-- [ ] Build lifecycles
-- [ ] Lifecycles phases
-- [ ] Plugins
-- [ ] Managing plugins with pom.xml
+- [x] Build lifecycles
+- [x] Lifecycles phases
+- [x] Plugins
+- [x] Managing plugins with pom.xml
 ### Dependency management
-- [ ] Dependecy artifacts: JARed classes, sources, javadocs
-- [ ] Artifact repositories
-- [ ] Artifact identifying
-- [ ] Artifact versioning: stable and snapshots
-- [ ] Dependency management with pom.xml
-- [ ] Typical issues: dependency hell
+- [x] Dependecy artifacts: JARed classes, sources, javadocs
+- [x] Artifact repositories
+- [x] Artifact identifying
+- [x] Artifact versioning: stable and snapshots
+- [x] Dependency management with pom.xml
+- [x] Typical issues: dependency hell
 ### Demo
-- [ ] Unit vs Integration tests pattern
-- [ ] Partial application build with IDE
-- [ ] Uber-jar pattern
-- [ ] Full application build with IDE
-- [ ] Build results analysing
+- [x] Unit vs Integration tests pattern
+- [x] Partial application build with IDE
+- [x] Uber-jar pattern
+- [x] Full application build with IDE
+- [x] Build results analysing
 ### Hands-on
-- [ ] Full application build with IDE
-- [ ] Errors analysing
-- [ ] Compile errors fixing
-- [ ] Build without tests ran
+- [x] Full application build with IDE
+- [x] Errors analysing
+- [x] Compile errors fixing
+- [x] Build without tests ran
 
 ## IDE tooling overview (1)
 ### Demo

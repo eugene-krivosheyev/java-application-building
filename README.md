@@ -16,6 +16,9 @@ _1. Java Application as a Black Box: codebase management, building, troubleshoot
 ### Hardware
 - [ ] RAM ≥ 8Гб
 - [ ] Wi-Fi with Internet access
+```
+ekr@bk.ru / P@ssw0rd
+```
 ## Software
 - [ ] [git](https://git-scm.com/downloads)
 - [ ] [JDK8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)

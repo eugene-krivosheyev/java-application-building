@@ -5,7 +5,7 @@ _1. Java Application as a Black Box: codebase management, building, troubleshoot
 
 # Training Objectives
 - [x] Understanding Java platform architecture and its typical defects
-- [ ] Hands-on skill of managing Java codebase with version control tool
+- [x] Hands-on skill of managing Java codebase with version control tool
 - [x] Understanding core Java application structure for fast localization focus
 - [ ] Hands-on skill of building and autotesting complex Java Application
 - [ ] Understanding core Java syntax to localize and report compile-time errors
@@ -82,44 +82,44 @@ javadoc
 
 ## Git DVCS overview (1)
 ### Local versioning workflow
-- [ ] Local repo
-- [ ] Commit
-- [ ] Log
-- [ ] Tag
-- [ ] Branch
+- [x] Local repo
+- [x] Commit
+- [x] Log
+- [x] Tag
+- [x] Branch
 ### Remote versioing workflow
-- [ ] Remote repo
-- [ ] Clone
-- [ ] Push
-- [ ] Pull
+- [x] Remote repo
+- [x] Clone
+- [x] Push
+- [x] Pull
 ### Demo
-- [ ] Make group custom branch
-- [ ] Local and remote workflow with IDE tool
+- [x] Make group custom branch
+- [x] Local and remote workflow with IDE tool
 ### Hands-on
-- [ ] Fork this repo with your account
-- [ ] Add pair as collborator
-- [ ] Clone fork locally
+- [x] Fork this repo with your account
+- [x] Add pair as collborator
+- [x] Clone fork locally
 ```bash
 git clone --branch master --depth 1 https://github.com/eugene-krivosheyev/agile-practices-application
 ```
-- [ ] Open project with IDE
-- [ ] Make identyfing change and push
+- [x] Open project with IDE
+- [x] Make identyfing change and push
 
 ## Intro to configuration management patterns (1)
 ### Repo patterns
-- [ ] Distributed
-- [ ] Centralized
+- [x] Distributed
+- [x] Centralized
 ### Branching patterns
-- [ ] Team branch
-- [ ] Relese branch
-- [ ] Git Flow: feature branches + dev branch
-- [ ] Trunk-based development + Feature toggling
+- [x] Team branch
+- [x] Relese branch
+- [x] Git Flow: feature branches + dev branch
+- [x] Trunk-based development + Feature toggling
 ### Demo
-- [ ] Making pull-request: code review + merge
+- [x] Making pull-request: code review + merge
 ### Hands-on
-- [ ] Make change
-- [ ] Make pull-request for code review and merge
-- [ ] Make reverse pull-request to get trainers changes
+- [x] Make change
+- [x] Make pull-request for code review and merge
+- [x] Make reverse pull-request to get trainers changes
 
 ## Maven Overview (1)
 ### Maven build lifecycle

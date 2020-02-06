@@ -6,7 +6,7 @@ _1. Java Application as a Black Box: codebase management, building, troubleshoot
 # Training Objectives
 - [x] Understanding Java platform architecture and its typical defects
 - [ ] Hands-on skill of managing Java codebase with version control tool
-- [ ] Understanding core Java application structure for fast localization focus
+- [x] Understanding core Java application structure for fast localization focus
 - [ ] Hands-on skill of building and autotesting complex Java Application
 - [ ] Understanding core Java syntax to localize and report compile-time errors
 - [ ] Hands-on skill of running and debugging complex Java Application

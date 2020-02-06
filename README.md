@@ -405,3 +405,8 @@ git clone --branch master --depth 1 https://github.com/ACCOUNT/java-application-
 
 ## Buffer (2)
 - [ ] Daily retrospectives
+
+---
+
+# Reading List
+- [Minimal Valuable Reading List](http://tinyurl.com/skilltrekreadinglist)

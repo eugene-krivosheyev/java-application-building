@@ -7,9 +7,9 @@ _1. Java Application as a Black Box: codebase management, building, troubleshoot
 - [x] Understanding Java platform architecture and its typical defects
 - [x] Hands-on skill of managing Java codebase with version control tool
 - [x] Understanding core Java application structure for fast localization focus
-- [ ] Hands-on skill of building and autotesting complex Java Application
-- [ ] Understanding core Java syntax to localize and report compile-time errors
-- [ ] Hands-on skill of running and debugging complex Java Application
+- [x] Hands-on skill of building and autotesting complex Java Application
+- [x] Understanding core Java syntax to localize and report compile-time errors
+- [x] Hands-on skill of running and debugging complex Java Application
 - [ ] Understanding core Application architecture for fast localization focus
 
 # Prerequisites
@@ -123,56 +123,56 @@ git clone --branch master --depth 1 https://github.com/eugene-krivosheyev/agile-
 
 ## Maven Overview (1)
 ### Maven build lifecycle
-- [ ] Build lifecycles
-- [ ] Lifecycles phases
-- [ ] Plugins
-- [ ] Managing plugins with pom.xml
+- [x] Build lifecycles
+- [x] Lifecycles phases
+- [x] Plugins
+- [x] Managing plugins with pom.xml
 ### Dependency management
-- [ ] Dependecy artifacts: JARed classes, sources, javadocs
-- [ ] Artifact repositories
-- [ ] Artifact identifying
-- [ ] Artifact versioning: stable and snapshots
-- [ ] Dependency management with pom.xml
-- [ ] Typical issues: dependency hell
+- [x] Dependecy artifacts: JARed classes, sources, javadocs
+- [x] Artifact repositories
+- [x] Artifact identifying
+- [x] Artifact versioning: stable and snapshots
+- [x] Dependency management with pom.xml
+- [x] Typical issues: dependency hell
 ### Demo
-- [ ] Unit vs Integration tests pattern
-- [ ] Partial application build with IDE
-- [ ] Uber-jar pattern
-- [ ] Full application build with IDE
-- [ ] Build results analysing
+- [x] Unit vs Integration tests pattern
+- [x] Partial application build with IDE
+- [x] Uber-jar pattern
+- [x] Full application build with IDE
+- [x] Build results analysing
 ### Hands-on
-- [ ] Full application build with IDE
-- [ ] Errors analysing
-- [ ] Compile errors fixing
-- [ ] Build without tests ran
+- [x] Full application build with IDE
+- [x] Errors analysing
+- [x] Compile errors fixing
+- [x] Build without tests ran
 
 ## IDE tooling overview (1)
 ### Demo
-- [ ] Project settings and structure: modules, sourcepath + classpath
-- [ ] Main and Test sources
-- [ ] Workspace
-- [ ] Views and hotkey switching
-- [ ] Editing sources and foreground compilation
-- [ ] Debugging methods
-- [ ] Running tests from IDE
-- [ ] Running application with run configuration and hotkey shortcut
-- [ ] Full application building from Maven view
-- [ ] Hotkey shortcuts for git workflow operations
-- [ ] Main hotkey
+- [x] Project settings and structure: modules, sourcepath + classpath
+- [x] Main and Test sources
+- [x] Workspace
+- [x] Views and hotkey switching
+- [x] Editing sources and foreground compilation
+- [x] Debugging methods
+- [x] Running tests from IDE
+- [x] Running application with run configuration and hotkey shortcut
+- [x] Full application building from Maven view
+- [x] Hotkey shortcuts for git workflow operations
+- [x] Main hotkey
 ### Hands-on
-- [ ] Edit: fix test defects localized
-- [ ] Debug
-- [ ] Run tests
-- [ ] Full Maven build
-- [ ] Build results analysing
-- [ ] Commit and push
+- [x] Edit: fix test defects localized
+- [x] Debug
+- [x] Run tests
+- [x] Full Maven build
+- [x] Build results analysing
+- [x] Commit and push
 
 ## Memory structure and errors (2)
 ### Memory structure
-- [ ] Methods and Call Stack
-- [ ] Objects and Heap Object Space
-- [ ] Classes and Perm/Meta Space
-- [ ] References in all scopes and GC
+- [x] Methods and Call Stack
+- [x] Objects and Heap Object Space
+- [x] Classes and Perm/Meta Space
+- [x] References in all scopes and GC
 ### Errors
 - [ ] Class locading errors: compilation and run-time
 - [ ] Static context access
@@ -186,7 +186,7 @@ git clone --branch master --depth 1 https://github.com/eugene-krivosheyev/agile-
 ### Hand-on
 - [ ] Application profiling with VisualGC plugin and Heap profiling
 
-## Error handling architecture (2)
+## Error handling architecture (1)
 ### Exception definition
 - [ ] Type
 - [ ] Object
@@ -208,7 +208,7 @@ git clone --branch master --depth 1 https://github.com/eugene-krivosheyev/agile-
 ### Hands-on
 - [ ] Business exception design and handling
 
-## Multithreading architecture (2)
+## Multithreading architecture (1)
 ### Threads overview
 - [ ] Thread concept
 - [ ] Scheduler 
@@ -223,7 +223,7 @@ git clone --branch master --depth 1 https://github.com/eugene-krivosheyev/agile-
 ### Hands-on
 - [ ] Application profiling with threads states and stack dump
 
-## Web application architecture (2)
+## Web application architecture (1)
 ### HTTP protocol
 - [ ] HTTP as a transport layer
 - [ ] Methods
@@ -248,7 +248,7 @@ git clone --branch master --depth 1 https://github.com/eugene-krivosheyev/agile-
 - [ ] Simple UI webapp building and deploying to Tomcat
 - [ ] HTTP layer sniffing with Chrome
 
-## Frameworked Webapp architecture (2)
+## Frameworked Webapp architecture (1)
 ### Framework concept
 - [ ] Framework definintion
 - [ ] Typical application architecture: layers
@@ -275,95 +275,7 @@ git clone --branch master --depth 1 https://github.com/eugene-krivosheyev/agile-
 - [ ] Building and running Boot REST API application
 - [ ] Manual tesing
 
-## Data storage architecture (2)
-### Data storage types
-- [ ] Plain files
-- [ ] RDBMS
-- [ ] NoSQL/NewSQL
-- [ ] Pros and Cons
-### RDBMS access types
-- [ ] JDBC API: db schema constrains, type mapping, transactions
-- [ ] JPA API: entities and constrains, caching, transactions
-- [ ] Spring Boot Data generated repositores
-### Data Validation API
-- [ ] Configuring constraints
-### Typical issues
-- [ ] Db schema constrains
-- [ ] Entities constraints
-- [ ] Validation API constraints
-- [ ] JDBC transactions and isolation, db deadlocks
-- [ ] JPA transactions and optimistic exceptions
-### DB versioning
-- [ ] Why
-### Demo
-- [ ] DB versioning with Liquibase and access with Boot Data repositories
-### Hands-on
-- [ ] Add entity field with Validation API constraints
-- [ ] Add Liquibase change
-- [ ] Build and run application
-- [ ] Manual testing
-
-## Autotests architecture (2)
-### Autotests definintion
-- [ ] Testing scopes mapped to application architecture
-- [ ] Test structure
-- [ ] Test doublers
-- [ ] Reporting: test run and coverage
-- [ ] Test error types
-### Demo
-- [ ] Attendees choose their typical scope for demo
-- [ ] Unit test: plain service + manual doubling
-- [ ] Unit test: service + spring context doubling
-- [ ] Integration test: controller + serivce
-- [ ] Integration test: controller + service + repository
-- [ ] Integration test: HTTP layer + controller + service + repository
-- [ ] Integration test: HTTP layer + controller + service + remote REST service + repository
-### UI testing
-- [ ] HTML overview
-- [ ] Selenium API overview
-- [ ] Selenide library
-- [ ] Driver manager library
-### Demo
-- [ ] UI Selenide test with Chrome headless mode off
-### Hands-on
-- [ ] Choose testing scope
-- [ ] Implement autotest
-- [ ] Run from IDE
-- [ ] Run full Maven build
-- [ ] Analyse reports
-
-## Logging and Monitoring architecture (2)
-### Local logging
-- [ ] Logging libraries hell overview
-- [ ] SLF4J API
-- [ ] Logback configuration
-- [ ] Profiles
-- [ ] Production issues
-### Remote logging
-- [ ] Centralized remote logging architecture
-- [ ] ELK stack for implementation
-### Demo
-- [ ] Remote ELK overview
-- [ ] Application logs to Logstash
-- [ ] Log stream with Kibana
-- [ ] Log searching and filtering with Kibana
-- [ ] Business events filtering
-- [ ] Kibana dashboards for business events
-### Monitoring with ELK
-- [ ] What to monitor?
-- [ ] Gathering system metrics with Beats
-- [ ] Kibana dashboards
-### Monitoring with JMX
-- [ ] What to monitor?
-- [ ] JMX MBeans
-- [ ] MBeans implementations: JVM, container, framework, application
-- [ ] Remote monitoring with JVisualVM
-### Hands-on
-- [ ] Customize logging level
-- [ ] Analyse logs
-- [ ] Local monitoring with JVVM
-
-## DevOps Pipeline architecture* (2)
+## DevOps Pipeline architecture* (1)
 ### DevOps culture
 - [ ] Production process overview
 - [ ] Bottlenecks
@@ -387,27 +299,6 @@ git clone --branch master --depth 1 https://github.com/eugene-krivosheyev/agile-
 - [ ] CD pipeline demo
 ### Hands-on
 - [ ] Push feature change full-auto to prod environment
-
-## Test containerization architecture* (1)
-### Containerization concept
-- [ ] Containerization goals
-- [ ] Containerization vs virtualization
-- [ ] QA use-cases and value
-### Docker implementation overview
-- [ ] Docker images
-- [ ] Docker container
-- [ ] Docker Hub
-- [ ] Image provisioning
-### Demo
-- [ ] Application dockeriaztion
-- [ ] Container run
-### Environment management
-- [ ] Docker Compose
-- [ ] Docker Swarm
-- [ ] k8s
-
-## Buffer (2)
-- [ ] Daily retrospectives
 
 ---
 

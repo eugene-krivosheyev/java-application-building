@@ -277,7 +277,7 @@ git clone --branch master --depth 1 https://github.com/eugene-krivosheyev/agile-
 
 ## DevOps Pipeline architecture* (1)
 ### DevOps culture
-- [ ] Production process overview
+- [ ] [Production process overview](http://tinyurl.com/ekr-ci)
 - [ ] Bottlenecks
 - [ ] Communications as a key
 - [ ] DevOps culture

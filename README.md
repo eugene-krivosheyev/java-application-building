@@ -405,3 +405,6 @@ git clone --branch master --depth 1 https://github.com/ACCOUNT/java-application-
 
 ## Buffer (2)
 - [ ] Daily retrospectives
+
+## Recordings
+- [19.01](https://us02web.zoom.us/rec/share/CWh5V_RZrR8wRSH-Ox4KoWDHv-VxWsV2uiDe71HUpmioahcqFcRHCivhbwlHyYs.nxLnhKVj_9JBlZWc)

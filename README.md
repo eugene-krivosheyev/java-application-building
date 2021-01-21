@@ -408,3 +408,4 @@ git clone --branch master --depth 1 https://github.com/ACCOUNT/java-application-
 
 ## Recordings
 - [19.01](https://us02web.zoom.us/rec/share/CWh5V_RZrR8wRSH-Ox4KoWDHv-VxWsV2uiDe71HUpmioahcqFcRHCivhbwlHyYs.nxLnhKVj_9JBlZWc)
+- [21.01](https://us02web.zoom.us/rec/share/KLPumsC7-aCY51f_FusCWLtLSnTHdffvwh1FUAvagbo9CQ3nDmnrsUqLnsCHim0S.qsx4KT4-1eneL3bo)

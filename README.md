@@ -407,6 +407,5 @@ git clone --branch master --depth 1 https://github.com/ACCOUNT/java-application-
 - [ ] Daily retrospectives
 
 ## Recordings
-- [21.01](https://us02web.zoom.us/rec/share/ET7q7kjbPV3nb2_3BuRzWcb6Rv5laA67L26Y5L-Q-jeWS9zSJj-WhYGxq_6-IaMG.jrb42RvG8gEAPNFa)
 - [26.01](https://us02web.zoom.us/rec/share/yc1wY-O9GH1UQ7KasfexCDx-S5GZeVPskNKHTHE0OSA94bZH9z7bBFoCZTjDTXP5.ynSaVb9f-3CxIL1X)
-
+- [28.01](https://us02web.zoom.us/rec/share/xxLBVZpa9_H8kKEl_5eYrHW8Ey-IrwAKU7E1hUYaypamCfnUJCyX5mOx-zjTPQ_X.nUgF6xhM_jaO81VT)

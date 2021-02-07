@@ -9,8 +9,8 @@
   <version>1.0-SNAPSHOT</version>
 
   <name>hw-executable</name>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+
+  <url>edu.hw.db.com</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -70,20 +70,21 @@
           <version>3.0.0</version>
   	</plugin>
 
+
+<!-- Build an executable JAR -->
     <plugin>
-         <!-- Build an executable JAR -->
-         <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-jar-plugin</artifactId>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-jar-plugin</artifactId>
       <version>3.1.0</version>
-    <configuration>
-      <archive>
-            <manifest>
-              <addClasspath>true</addClasspath>
-              <classpathPrefix>lib/</classpathPrefix>
-              <mainClass>com.db.edu.hw.App</mainClass>
-            </manifest>
-      </archive>
-   </configuration>
+      <configuration>
+        <archive>
+              <manifest>
+                <addClasspath>true</addClasspath>
+                <classpathPrefix>lib/</classpathPrefix>
+                <mainClass>com.db.edu.hw.App</mainClass>
+              </manifest>
+        </archive>
+     </configuration>
 																											      </plugin>
       </plugins>
     </pluginManagement>

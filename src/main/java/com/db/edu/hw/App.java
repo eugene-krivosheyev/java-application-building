@@ -1,6 +1,6 @@
-package com.db.edu;
+package com.db.edu.hw;
 
-import com.db.edu.service.Printer;
+import com.db.edu.hw.service.Printer;
 
 public class App {
     public static void main(String[] args) {

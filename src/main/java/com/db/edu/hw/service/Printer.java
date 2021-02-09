@@ -1,4 +1,4 @@
-package com.db.edu.service;
+package com.db.edu.hw.service;
 
 public class Printer {
     public void print(String message) {

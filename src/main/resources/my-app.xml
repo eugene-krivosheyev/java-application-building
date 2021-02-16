@@ -1,0 +1,14 @@
+<bean type="AccountController" id="" init="lazy">
+    <bean ref="SimpleAccountService"/>
+</bean>
+
+<bean type="BrAccountService">
+<bean ref="DbRepo"/>
+</bean>
+
+<bean type="DbRepo">
+<property value="jdbc:postgres://db"/>
+</bean>
+
+<advice name="tx" class="" MyTxHandler/>
+<apply MyTxHandler to *.* />

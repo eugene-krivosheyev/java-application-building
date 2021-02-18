@@ -1,0 +1,6 @@
+db:
+  url: jdbc:postgres://db
+  driver:
+
+spring:
+  hibernate:

@@ -6,9 +6,17 @@
 <bean ref="DbRepo"/>
 </bean>
 
+<profile name="prod">
 <bean type="DbRepo">
-<property value="jdbc:postgres://db"/>
+    <property value="jdbc:postgres://db"/>
 </bean>
+</profile>
+
+<profile name="test">
+<bean type="DbRepo">
+    <property value="jdbc:memory://db"/>
+</bean>
+</profile>
 
 <advice name="tx" class="" MyTxHandler/>
 <apply MyTxHandler to *.* /> //AspectJ

@@ -3,7 +3,9 @@ package didemo.service;
 import didemo.dal.AccountRepository;
 import didemo.domain.Account;
 
+@Component // -> @Controller, @Service, @Repository
 public class SimpleAccountService implements AccountService {
+    @Autowired
     private final AccountRepository accounts;
 
     public SimpleAccountService(AccountRepository accounts) {

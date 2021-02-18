@@ -1,8 +1,11 @@
 package didemo.dal;
 
 import didemo.domain.Account;
+import didemo.service.Component;
 
+@Component
 public class RdbAccountRepository implements AccountRepository {
+    @Value("db.url")
     private final String dbUrl;
 
     public RdbAccountRepository(String dbUrl) {

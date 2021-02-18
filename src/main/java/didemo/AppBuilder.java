@@ -1,21 +1,19 @@
 package didemo;
 
 import didemo.controller.AccountController;
-import didemo.dal.RdbAccountRepository;
 import didemo.domain.Account;
-import didemo.service.SimpleAccountService;
 
 public class AppBuilder {
     public static void main(String[] args) {
         //region Spring Core
-        final AccountController controller = new AccountController(
-                new SimpleAccountService(
-                        new RdbAccountRepository("jdbc:postgres://db")));
+//        final AccountController controller = new AccountController(
+//                new SimpleAccountService(
+//                        new RdbAccountRepository("jdbc:postgres://db")));
         //endregion
 
-//        final AccountController controllerFromSpring =
-//                new ApplicationContext("app-config.xml")
-//                        .getBean(AccountController.class);
+        final AccountController controllerFromSpring =
+                new ApplicationContext("app-config.xml")
+                        .getBean(AccountController.class);
 
         //region Spring MVC: HTTP
         while (true) {

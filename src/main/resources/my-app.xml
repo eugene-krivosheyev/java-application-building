@@ -1,8 +1,8 @@
-<bean type="AccountController" id="" init="lazy">
+<bean type="AccountController" id="" init="lazy" scope="prototype">
     <bean ref="SimpleAccountService"/>
 </bean>
 
-<bean type="BrAccountService">
+<bean type="BrAccountService" scope="singleton">
 <bean ref="DbRepo"/>
 </bean>
 
@@ -11,4 +11,4 @@
 </bean>
 
 <advice name="tx" class="" MyTxHandler/>
-<apply MyTxHandler to *.* />
+<apply MyTxHandler to *.* /> //AspectJ

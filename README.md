@@ -413,3 +413,4 @@ git clone --branch master --depth 1 https://github.com/ACCOUNT/java-application-
 - [04.02](https://us02web.zoom.us/rec/share/WASWkMkYActD6fNwjJ4Jewel9aUg4As3vBYdIx4Tzk4F-YXaugOqDn858ubC-3wM.KBF64HCyh2RLcCgs)
 - [09.02](https://us02web.zoom.us/rec/share/WHPrFiOBA2fkiyaKecrkL4pMbnKMUhM47RnZ1_Y37WdTdkG6Xam_nw8N4h8dnFlx.eeWwxAxEcoWjw62M)
 - [11.02](https://us02web.zoom.us/rec/share/QfRLRdZMduEl_UP9uhZbkPpsrGbgQUPKYZvIKWe0QsBeS-2bYYckye-0QTRwAuI9.8qHQu37lEU_4mNEs)
+- [16.02](https://us02web.zoom.us/rec/share/fbIJr-mcEE8iDrMl6Ip527Hy1PaO0xeX9yEfgqqbv_d6ldiEgrd7C-ie6zZZGpft.LnL4a_VkvMx-V0VK)

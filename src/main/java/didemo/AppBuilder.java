@@ -1,5 +1,6 @@
-package didemo.controller;
+package didemo;
 
+import didemo.controller.AccountController;
 import didemo.dal.RdbAccountRepository;
 import didemo.domain.Account;
 import didemo.service.SimpleAccountService;

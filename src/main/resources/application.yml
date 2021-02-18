@@ -1,0 +1,13 @@
+myapp:
+  profile: QA
+  db:
+    url: jdbc:postres://loclhost/db
+
+  profile: prod
+    db:
+      url: jdbc:postres://HOST/db
+
+
+spring:
+  jpa:
+    provider: hibernate

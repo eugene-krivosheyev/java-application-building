@@ -1,0 +1,13 @@
+<bean type="AccountController" id="">
+    <property ref="service"/>
+</bean>
+
+<bean type="FZ152AccountService" id="service">
+<property ref="repo"/>
+</bean>
+
+<bean type="RdbAccountRepository" id="repo">
+<property value="jdbc:postres://loclhost/db"/>
+</bean>
+
+<autoscan/>

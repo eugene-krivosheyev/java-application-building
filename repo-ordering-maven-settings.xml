@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings
+        xmlns="http://maven.apache.org/SETTINGS/1.0.0">
+
+    <servers>
+        <server>
+            <id>2_maven_corp</id>
+            <username>artifactory-account</username>
+            <password>artifactory-account</password>
+        </server>
+    </servers>
+
+    <profiles>
+        <profile>
+            <id>artifactory</id>
+
+            <repositories>
+                <repository>
+                    <id>1_maven_central</id> <!-- repo ordering hack with id prefix -->
+                    <url>https://repo.maven.apache.org/maven2</url>
+                </repository>
+                <repository>
+                    <id>2_maven_corp</id>
+                    <url>https://corp-artifactory-url/repo</url>
+                </repository>
+            </repositories>
+
+            <pluginRepositories>
+                <pluginRepository>
+                    <id>1_maven_central</id>
+                    <url>https://repo.maven.apache.org/maven2</url>
+                </pluginRepository>
+                <pluginRepository>
+                    <id>2_maven_corp</id>
+                    <url>https://corp-artifactory-url/repo</url>
+                </pluginRepository>
+            </pluginRepositories>
+        </profile>
+    </profiles>
+
+    <activeProfiles>
+        <activeProfile>artifactory</activeProfile>
+    </activeProfiles>
+</settings>

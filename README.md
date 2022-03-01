@@ -1,6 +1,10 @@
 Java Application Building
 ==========
 
+Recordings
+----------
+- [01.03](https://us02web.zoom.us/rec/share/lU0Oh_U3mxSySVvK4ASpQnY6YOGSnaorerXaHKoA32-lbCK-nzJNq4eNoxtPrIZl.GLcyXa5aVTsF80qb)
+
 _1. Java Application as a Black Box: codebase management, building, troubleshooting and running._ 30hrs.
 
 # Training Objectives

@@ -8,6 +8,7 @@ Recordings
 - [09.03](https://us02web.zoom.us/rec/share/l5XhoXCdR2oxTD2691ApSo8hXvBQCSgNFTwW1XvLdpxMQ6Wi8gdLII182zyQieXd.pxmXJrbWqbdVbDd6)
 - [10.03](https://us02web.zoom.us/rec/share/H6q-4WUQXMtYPS8oqGYNnpNr7YfgVaKHkK7b8w4Ovc7nnERTsicFWVaFTiCpTD6Q.0wMFq3CPmQnvp8Ne)
 
+
 _1. Java Application as a Black Box: codebase management, building, troubleshooting and running._ 30hrs.
 
 # Training Objectives

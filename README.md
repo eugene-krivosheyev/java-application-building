@@ -1,6 +1,7 @@
 Java Application Building
 ==========
 
+
 Recordings
 ----------
 - [01.03](https://us02web.zoom.us/rec/share/e3eEe-AUeB3DZ2h4fy9DVftyIbQnITvoUdfa-VxhH7TI8oJrs7ZxtxT9SlCN9LKG.vvjnCTvZievsZoQY)

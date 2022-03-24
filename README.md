@@ -10,6 +10,7 @@ Recordings
 - [15.03](https://us02web.zoom.us/rec/share/-h7AbsrGkNT06sQv3Z6vBs43vqyLTwg1Ki7lE2A8oKDonxMHUgl7emT-rNKuttXX.pzqd_Emrb_dRHgn_)
 - [17.03](https://us02web.zoom.us/rec/share/p5hiiA6awBpTfRFtf7UG3-BDwc23HIWipT89LkZ5ccWZQugzFzljBd7VFc2vY6Lm.bYNTlbIOGqwmuNN7)
 - [22.03](https://us02web.zoom.us/rec/share/WjZ0LmafZ27ms_ML93rVvjCxVuSX5p27b9hydt2bDYO5PyjCYFxyxFTGEPi4cSOA.FMfSHweT7DY1k4n4)
+- [24.03](https://us02web.zoom.us/rec/share/DQ1NNdDcuunOvvWr3xpwuv2CtDPLemXp-NPIbMiKhCHldKSBxIubbVkIS7UrcBIn.rlQNwRQoiREYViQZ)
 
 
 _1. Java Application as a Black Box: codebase management, building, troubleshooting and running._ 30hrs.
